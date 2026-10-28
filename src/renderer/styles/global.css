@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --color-app-bg: oklch(0.12 0.01 260);
+  --color-app-base: oklch(0.12 0.01 260);
+  --color-app-surface: oklch(0.16 0.01 260);
+  --color-app-deep: oklch(0.14 0.01 260);
+  --color-app-border: oklch(0.26 0.01 260);
+  --color-border: oklch(0.26 0.01 260);
+  --color-app-hover: oklch(0.22 0.01 260);
+  --color-app-active: oklch(0.24 0.01 260);
+  --color-text-primary: oklch(0.95 0 0);
+  --color-text-secondary: oklch(0.78 0 0);
+  --color-text-muted: oklch(0.62 0 0);
+  --color-text-dim: oklch(0.5 0 0);
+  --color-accent: oklch(0.65 0.18 260);
+  --color-accent-light: oklch(0.75 0.16 260);
+}
+
+[data-theme="light"] {
+  --color-app-bg: oklch(0.98 0 0);
+  --color-app-base: oklch(0.98 0 0);
+  --color-app-surface: oklch(1 0 0);
+  --color-app-deep: oklch(0.98 0 0);
+  --color-app-border: oklch(0.9 0 0);
+  --color-border: oklch(0.9 0 0);
+  --color-app-hover: oklch(0.96 0 0);
+  --color-app-active: oklch(0.94 0 0);
+  --color-text-primary: oklch(0.2 0 0);
+  --color-text-secondary: oklch(0.4 0 0);
+  --color-text-muted: oklch(0.5 0 0);
+  --color-text-dim: oklch(0.6 0 0);
+}
+
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 400;
+  color: var(--color-text-primary);
+  background-color: var(--color-app-bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}

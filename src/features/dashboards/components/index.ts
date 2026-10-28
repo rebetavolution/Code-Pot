@@ -1,0 +1,10 @@
+export { HomeScreen as EcommerceDashboardPage } from "../../home/components/HomeScreen";
+export { AnalyticsDashboardPage } from "./AnalyticsDashboardPage";
+export { MarketingDashboardPage } from "./MarketingDashboardPage";
+export { CrmDashboardPage } from "./CrmDashboardPage";
+export { StocksDashboardPage } from "./StocksDashboardPage";
+export { SaasDashboardPage } from "./SaasDashboardPage";
+export { LogisticsDashboardPage } from "./LogisticsDashboardPage";
+export { AiDashboardPage } from "./AiDashboardPage";
+export { SalesDashboardPage } from "./SalesDashboardPage";
+export { FinanceDashboardPage } from "./FinanceDashboardPage";
